@@ -206,7 +206,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : Numeric values from 1 to 30
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Activity
@@ -218,7 +218,7 @@ Some information on the variable including:
 
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyAccelaration-mean()-X
@@ -230,7 +230,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelaration-mean()-Y
 
@@ -241,7 +241,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelaration-mean()-Z
 
@@ -252,7 +252,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-GravityAccelaration-mean()-X
@@ -264,7 +264,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-GravityAccelaration-mean()-Y
 
@@ -275,7 +275,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-GravityAccelaration-mean()-Z
 
@@ -286,7 +286,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyAccelarationJerk-mean()-X
@@ -298,7 +298,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationJerk-mean()-Y
 
@@ -309,7 +309,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationJerk-mean()-Z
 
@@ -320,7 +320,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyro-mean()-X
 
@@ -331,7 +331,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyGyro-mean()-Y
@@ -343,7 +343,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyro-mean()-Z
 
@@ -354,7 +354,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyroJerk-mean()-X
 
@@ -365,7 +365,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyroJerk-mean()-Y
 
@@ -376,7 +376,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyroJerk-mean()-Z
 
@@ -387,7 +387,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationMag-mean()
 
@@ -398,7 +398,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-GravityAccelarationMag-mean()
 
@@ -409,7 +409,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationJerkMag-mean()
 
@@ -420,7 +420,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyroMag-mean()
 
@@ -431,7 +431,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyroJerkMag-mean()
 
@@ -442,7 +442,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelaration-mean()-X
 
@@ -453,7 +453,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Frequency-BodyAccelaration-mean()-Y
@@ -465,7 +465,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Frequency-BodyAccelaration-mean()-Z
@@ -477,7 +477,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelaration-meanFrequency()-X
 
@@ -488,7 +488,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelaration-meanFrequency()-Y
 
@@ -499,7 +499,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelaration-meanFrequency()-Z
 
@@ -510,7 +510,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationJerk-mean()-X
 
@@ -521,7 +521,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationJerk-mean()-Y
 
@@ -532,7 +532,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationJerk-mean()-Z
 
@@ -543,7 +543,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationJerk-meanFrequency()-X
 
@@ -554,7 +554,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationJerk-meanFrequency()-Y
 
@@ -565,7 +565,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationJerk-meanFrequency()-Z
 
@@ -576,7 +576,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyGyro-mean()-X
 
@@ -587,7 +587,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyGyro-mean()-Y
 
@@ -598,7 +598,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyGyro-mean()-Z
 
@@ -609,7 +609,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Frequency-BodyGyro-meanFrequency()-X
@@ -621,7 +621,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Frequency-BodyGyro-meanFrequency()-Y
@@ -633,7 +633,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyGyro-meanFrequency()-Z
 
@@ -644,7 +644,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationMag-mean()
 
@@ -655,7 +655,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyAccelarationMag-meanFrequency()
 
@@ -666,7 +666,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyAccelarationJerkMag-mean()
 
@@ -677,7 +677,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyAccelarationJerkMag-meanFrequency()
 
@@ -688,7 +688,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyAccelarationJerkMag-meanFrequency()
 
@@ -699,7 +699,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyGyroMag-mean()
 
@@ -710,7 +710,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyGyroMag-meanFrequency()
 
@@ -722,7 +722,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyGyroJerkMag-mean()
 
@@ -734,7 +734,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Frequency-BodyBodyGyroJerkMag-meanFrequency()
 
@@ -745,7 +745,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###angle(Time-BodyAccelarationMean,gravity)
 
@@ -756,7 +756,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###angle(Time-BodyAccelarationJerkMean),gravityMean)
@@ -768,7 +768,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###angle(Time-BodyAccelarationJerkMean),gravityMean)
@@ -780,7 +780,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -793,7 +793,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -806,7 +806,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -819,7 +819,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -832,7 +832,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -845,7 +845,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelaration-Standard Deviation()-X
 
@@ -856,7 +856,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyAccelaration-Standard Deviation()-Y
@@ -868,7 +868,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyAccelaration-Standard Deviation()-Z
@@ -880,7 +880,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-GravityAccelaration-Standard Deviation()-X
@@ -892,7 +892,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -905,7 +905,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 
@@ -918,7 +918,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationJerk-Standard Deviation()-X
 
@@ -929,7 +929,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationJerk-Standard Deviation()-Y
 
@@ -940,7 +940,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationJerk-Standard Deviation()-Z
 
@@ -951,7 +951,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyro-Standard Deviation()-X
 
@@ -961,7 +961,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyGyro-Standard Deviation()-Y
 
@@ -971,7 +971,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyGyro-Standard Deviation()-Z
@@ -982,7 +982,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyGyroJerk-Standard Deviation()-X
@@ -993,7 +993,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyGyroJerk-Standard Deviation()-Y
@@ -1004,7 +1004,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
 ###Time-BodyGyroJerk-Standard Deviation()-Z
@@ -1015,7 +1015,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 ###Time-BodyAccelarationMag-Standard Deviation()
 
@@ -1025,7 +1025,7 @@ Some information on the variable including:
  - Unique values/levels of the variable : -1 to 1
 
 
- - Unit of measurement (if no unit of measurement list this as well) : None
+ - Unit of measurement   : None
 
 
   [1]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
