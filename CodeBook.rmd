@@ -1,0 +1,1034 @@
+---
+title: "CodeBook"
+author: "Amol Kankane"
+date: "25th Sept, '15"
+output:
+  html_document:
+    keep_md: yes
+---
+
+## Project Description
+
+  The data obtained from the following link represents data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+[http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones][1] 
+
+
+##Study design and data processing
+
+###Collection of the raw data
+
+The raw data for the analysis was obtained from the following link.
+
+[https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip][2] 
+
+###Notes on the original (raw) data 
+The data obtained here has mainly 2 folders that we will be dealing with. One called *train* and the other *test*. The "X_train.txt" file contains all the data for the respective features as listed on the "features.txt" file in the main directory.The "y_train.txt" file has the list of activities associated with the respective observation. "X_test.txt" and "y_test.txt" have similar meanings. "subject_test.txt" and "subject_train.txt" files have the *Person ID* associated with the observation stored in them.
+##Creating the tidy datafile
+
+###Guide to create the tidy data file
+ 1. Download the data from the above mentioned link.
+ 2. Put it in the home directory(and set the home directory as the working directory). 
+ 3. Run the script **run_analysis.R** available in the repository.
+ 4. Final_Data is the required tidy dataframe.
+ 5. You can export the data frame into a text file using the write.table() function with row.names=FALSE. 
+
+ 
+
+###Cleaning of the data
+The script reads the data from the text files obtained by downloading the dataset. Further detailed functioning of the scrip is mentioned in the [README.md][3] available in the [repository][4].
+
+##Description of the variables in the Final_Data.txt file
+General description of the file:
+
+
+ - Dimensions of the dataset: 180 rows and 88 Columns
+
+
+ - Summary of the data: The data is sorted by the activities that the a particular person did and the mean of all the observations when a particular person was doing a particular activity is available in the columns with the respective variables.
+
+
+ - Variables present in the dataset:
+
+     "Person"
+    
+
+     "Activity"
+
+     "Time-BodyAccelaration-mean()-X"
+
+     "Time-BodyAccelaration-mean()-Y"
+
+     "Time-BodyAccelaration-mean()-Z"
+
+     "Time-GravityAccelaration-mean()-X"
+
+     "Time-GravityAccelaration-mean()-Y"
+
+     "Time-GravityAccelaration-mean()-Z"
+
+     "Time-BodyAccelarationJerk-mean()-X"
+
+     "Time-BodyAccelarationJerk-mean()-Y"
+
+     "Time-BodyAccelarationJerk-mean()-Z"
+
+     "Time-BodyGyro-mean()-X"
+
+     "Time-BodyGyro-mean()-Y"
+
+     "Time-BodyGyro-mean()-Z"
+
+     "Time-BodyGyroJerk-mean()-X"
+
+     "Time-BodyGyroJerk-mean()-Y"
+
+     "Time-BodyGyroJerk-mean()-Z"
+
+     "Time-BodyAccelarationMag-mean()"
+
+     "Time-GravityAccelarationMag-mean()"
+
+     "Time-BodyAccelarationJerkMag-mean()"
+
+     "Time-BodyGyroMag-mean()"
+
+     "Time-BodyGyroJerkMag-mean()"
+
+     "Frequency-BodyAccelaration-mean()-X"
+
+     "Frequency-BodyAccelaration-mean()-Y"
+     
+     "Frequency-BodyAccelaration-mean()-Z"
+
+     "Frequency-BodyAccelaration-meanFrequency()-X"
+
+     "Frequency-BodyAccelaration-meanFrequency()-Y"
+
+     "Frequency-BodyAccelaration-meanFrequency()-Z"
+
+     "Frequency-BodyAccelarationJerk-mean()-X"
+
+     "Frequency-BodyAccelarationJerk-mean()-Y"
+
+     "Frequency-BodyAccelarationJerk-mean()-Z"
+
+     "Frequency-BodyAccelarationJerk-meanFrequency()-X"
+
+     "Frequency-BodyAccelarationJerk-meanFrequency()-Y"
+
+     "Frequency-BodyAccelarationJerk-meanFrequency()-Z"
+
+     "Frequency-BodyGyro-mean()-X"
+
+     "Frequency-BodyGyro-mean()-Y"
+
+     "Frequency-BodyGyro-mean()-Z"
+
+     "Frequency-BodyGyro-meanFrequency()-X"
+
+     "Frequency-BodyGyro-meanFrequency()-Y"
+
+     "Frequency-BodyGyro-meanFrequency()-Z"
+
+     "Frequency-BodyAccelarationMag-mean()"
+
+     "Frequency-BodyAccelarationMag-meanFrequency()"
+
+     "Frequency-BodyBodyAccelarationJerkMag-mean()"
+
+     "Frequency-BodyBodyAccelarationJerkMag-meanFrequency()"
+
+     "Frequency-BodyBodyGyroMag-mean()"
+     
+     "Frequency-BodyBodyGyroMag-meanFrequency()"
+
+     "Frequency-BodyBodyGyroJerkMag-mean()"
+
+     "Frequency-BodyBodyGyroJerkMag-meanFrequency()"
+
+     "angle(Time-BodyAccelarationMean,gravity)"
+
+     "angle(Time-BodyAccelarationJerkMean),gravityMean)"
+
+     "angle(Time-BodyGyroMean,gravityMean)"
+
+     "angle(Time-BodyGyroJerkMean,gravityMean)"
+
+     "angle(X,gravityMean)"
+
+     "angle(Y,gravityMean)"
+
+     "angle(Z,gravityMean)"
+
+     "Time-BodyAccelaration-Standard Deviation()-X"
+
+     "Time-BodyAccelaration-Standard Deviation()-Y"
+
+     "Time-BodyAccelaration-Standard Deviation()-Z"
+
+     "Time-GravityAccelaration-Standard Deviation()-X"
+
+     "Time-GravityAccelaration-Standard Deviation()-Y"
+
+     "Time-GravityAccelaration-Standard Deviation()-Z"
+
+     "Time-BodyAccelarationJerk-Standard Deviation()-X"
+
+     "Time-BodyAccelarationJerk-Standard Deviation()-Y"
+
+     "Time-BodyAccelarationJerk-Standard Deviation()-Z"
+
+     "Time-BodyGyro-Standard Deviation()-X"
+
+     "Time-BodyGyro-Standard Deviation()-Y"
+
+     "Time-BodyGyro-Standard Deviation()-Z"
+
+     "Time-BodyGyroJerk-Standard Deviation()-X"
+
+     "Time-BodyGyroJerk-Standard Deviation()-Y"
+
+     "Time-BodyGyroJerk-Standard Deviation()-Z"
+
+     "Time-BodyAccelarationMag-Standard Deviation()"
+
+
+
+###Person
+
+Some information on the variable including:
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : Numeric values from 1 to 30
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Activity
+
+ - Class of the variable : char
+
+
+ - Unique values/levels of the variable : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyAccelaration-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelaration-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelaration-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-GravityAccelaration-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-GravityAccelaration-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-GravityAccelaration-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyAccelarationJerk-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationJerk-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationJerk-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyro-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyGyro-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyro-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyroJerk-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyroJerk-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyroJerk-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-GravityAccelarationMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationJerkMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyroMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyroJerkMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelaration-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Frequency-BodyAccelaration-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Frequency-BodyAccelaration-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelaration-meanFrequency()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelaration-meanFrequency()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelaration-meanFrequency()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationJerk-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationJerk-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationJerk-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationJerk-meanFrequency()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationJerk-meanFrequency()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationJerk-meanFrequency()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyGyro-mean()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyGyro-mean()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyGyro-mean()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Frequency-BodyGyro-meanFrequency()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Frequency-BodyGyro-meanFrequency()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyGyro-meanFrequency()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyAccelarationMag-meanFrequency()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyAccelarationJerkMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyAccelarationJerkMag-meanFrequency()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyAccelarationJerkMag-meanFrequency()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyGyroMag-mean()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyGyroMag-meanFrequency()
+
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyGyroJerkMag-mean()
+
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Frequency-BodyBodyGyroJerkMag-meanFrequency()
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###angle(Time-BodyAccelarationMean,gravity)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###angle(Time-BodyAccelarationJerkMean),gravityMean)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###angle(Time-BodyAccelarationJerkMean),gravityMean)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###angle(Time-BodyGyroMean,gravityMean
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###angle(Time-BodyGyroJerkMean,gravityMean)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###angle(X,gravityMean)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###angle(Y,gravityMean)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###angle(Z,gravityMean)
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelaration-Standard Deviation()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyAccelaration-Standard Deviation()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyAccelaration-Standard Deviation()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-GravityAccelaration-Standard Deviation()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###Time-GravityAccelaration-Standard Deviation()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+
+###Time-GravityAccelaration-Standard Deviation()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationJerk-Standard Deviation()-X
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationJerk-Standard Deviation()-Y
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationJerk-Standard Deviation()-Z
+
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyro-Standard Deviation()-X
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyGyro-Standard Deviation()-Y
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyGyro-Standard Deviation()-Z
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyGyroJerk-Standard Deviation()-X
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyGyroJerk-Standard Deviation()-Y
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+###Time-BodyGyroJerk-Standard Deviation()-Z
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+###Time-BodyAccelarationMag-Standard Deviation()
+
+ - Class of the variable : num
+
+
+ - Unique values/levels of the variable : -1 to 1
+
+
+ - Unit of measurement (if no unit of measurement list this as well) : None
+
+
+  [1]: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+  [2]: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+  [3]: https://github.com/itsamk/Getting_And_Cleaning_Data-Course_Project/blob/master/README.md
+  [4]: https://github.com/itsamk/Getting_And_Cleaning_Data-Course_Project
