@@ -45,6 +45,15 @@ General description of the file:
  - Summary of the data: The data is sorted by the activities that the a particular person did and the mean of all the observations when a particular person was doing a particular activity is available in the columns with the respective variables.
 
 
+X, Y, and Z suffixes in the variables represent the X,Y,Z directions the readings were measured in.
+
+
+Time and Frequency prefixes in the variables depict if the variable was measured in time domain or frequency domian.
+
+All the values have been normalized to range in numeric values from -1 to 1.
+
+
+
  - Variables present in the dataset:
 
      "Person"
