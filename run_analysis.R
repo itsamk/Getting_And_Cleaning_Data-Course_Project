@@ -2,13 +2,14 @@
 library("dplyr")
 
 ## Reading Data into separate tables called 'test' and 'train'
-train <- cbind(read.table("~/train/y_train.txt", sep=""), 
-               read.table("~/train/subject_train.txt", sep = ""), 
-               read.table("~/train/X_train.txt", sep = ""))
+## Set the UCI HAR Dataset directory as the working directory.
+train <- cbind(read.table("./train/y_train.txt", sep=""), 
+               read.table("./train/subject_train.txt", sep = ""), 
+               read.table("./train/X_train.txt", sep = ""))
 
-test  <- cbind(read.table("~/test/y_test.txt", sep=""), 
-               read.table("~/test/subject_test.txt", sep = ""), 
-               read.table("~/test/X_test.txt", sep = ""))
+test  <- cbind(read.table("./test/y_test.txt", sep=""), 
+               read.table("./test/subject_test.txt", sep = ""), 
+               read.table("./test/X_test.txt", sep = ""))
 
 ## Creating a variable to extract feature names
 
