@@ -90,4 +90,5 @@ Final_Data <- arrange(Tidy_dataset_one, Person, Activity)
 Final_Data <- Final_Data %>% group_by(Person,Activity) %>% summarise_each(funs(mean))
 
 
-
+##Uncomment the next line to have the Final_Data dataframe stored into a text file in the working directory.
+## write.table(Final_Data, row.names = FALSE, "./Final_Data.txt")
